@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:padding = "16dp"
+    android:orientation = "vertical"
+    tools:context = ".AttendanceDetailsActivity" >
+    
+    <TextView 
+        android:id = "@+id/hello"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_centerHorizontal = "true"
+        android:text = "Please fill in the Details"/>
+
+     <TextView
+        android:id = "@+id/tdepartment"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentLeft = "true"
+        android:layout_marginTop = "20dp"
+        android:layout_below = "@id/hello"
+        android:text = "Select Department:" />
+     
+     <Spinner 
+         android:id = "@+id/sdepartment"
+         android:layout_height = "wrap_content"
+         android:layout_width = "match_parent"
+         android:layout_below = "@id/tdepartment"
+         android:layout_marginTop = "15dp"
+         android:layout_centerHorizontal = "true"/>
+     
+    
+    <TextView
+        android:id = "@+id/tclass"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentLeft = "true"
+        android:layout_below = "@id/sdepartment"
+        android:layout_marginTop = "15dp"
+        android:text = "Select Class:" />
+    
+    <Spinner 
+         android:id = "@+id/sclass"
+         android:layout_height = "wrap_content"
+         android:layout_width = "match_parent"
+         android:layout_below = "@id/tclass"
+         android:layout_marginTop = "15dp"
+         android:layout_centerHorizontal = "true"/>
+    
+    <TextView
+        android:id = "@+id/tsubject"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentLeft = "true"
+        android:layout_below = "@id/sclass"
+        android:layout_marginTop = "15dp"
+        android:text = "Select Subject:" />
+    
+    <Spinner 
+         android:id = "@+id/ssubject"
+         android:layout_height = "wrap_content"
+         android:layout_width = "match_parent"
+         android:layout_below = "@id/tsubject"
+         android:layout_marginTop = "15dp"
+         android:layout_centerHorizontal = "true"/>
+    
+    <TextView
+        android:id = "@+id/tdate"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentLeft = "true"
+        android:layout_below = "@id/ssubject"
+        android:layout_marginTop = "15dp"
+        android:text = "Select Date:" />
+    
+    <EditText 
+         android:id = "@+id/edate"
+         android:layout_height = "wrap_content"
+         android:layout_width = "match_parent"
+         android:layout_below = "@id/tdate"
+         android:layout_marginTop = "15dp"
+         android:layout_centerHorizontal = "true"
+         android:inputType = "date"/>
+    
+    <Button 
+        android:id = "@+id/bsubmit"
+        android:layout_width = "100dp"
+        android:layout_height = "wrap_content"
+        android:layout_below = "@id/edate"
+        android:layout_centerHorizontal = "true"
+        android:onClick = "onSubmitClick"
+ 		android:text = "Submit" />    
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Devesh Hatkar\\.gradle\\caches\\transforms-1\\files-1.1\\gridlayout-v7-18.0.0.aar\\f8243bee5decf905729b1fa9a38e2866\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "188",
+                        "startColumns": "4",
+                        "startOffsets": "8767",
+                        "endColumns": "43",
+                        "endOffsets": "8806"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "2154",
+                        "endColumns": "43",
+                        "endOffsets": "2193"
+                    }
+                }
+            ]
+        }
+    ]
+}

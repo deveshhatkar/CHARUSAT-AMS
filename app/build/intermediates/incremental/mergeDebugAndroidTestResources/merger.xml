@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="com.android.support:gridlayout-v7:18.0.0$Generated" generated="true"><source path="C:\Users\Devesh Hatkar\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-18.0.0.aar\f8243bee5decf905729b1fa9a38e2866\res"/></dataSet><dataSet config="com.android.support:gridlayout-v7:18.0.0" from-dependency="true" generated-set="com.android.support:gridlayout-v7:18.0.0$Generated"><source path="C:\Users\Devesh Hatkar\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-18.0.0.aar\f8243bee5decf905729b1fa9a38e2866\res"><file path="C:\Users\Devesh Hatkar\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-18.0.0.aar\f8243bee5decf905729b1fa9a38e2866\res\values\values.xml" qualifiers=""><declare-styleable name="GridLayout">
+
+        
+
+
+        
+        <attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="rowCount"/>
+        
+        <attr format="integer" name="columnCount"/>
+        
+        <attr format="boolean" name="useDefaultMargins"/>
+        
+        <attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr>
+        
+        <attr format="boolean" name="rowOrderPreserved"/>
+        
+        <attr format="boolean" name="columnOrderPreserved"/>
+    </declare-styleable><declare-styleable name="GridLayout_Layout">
+
+        
+
+
+        
+
+        <attr name="android:layout_width"/>
+        <attr name="android:layout_height"/>
+        
+        <attr name="android:layout_margin"/>
+        
+        <attr name="android:layout_marginLeft"/>
+        
+        <attr name="android:layout_marginTop"/>
+        
+        <attr name="android:layout_marginRight"/>
+        
+        <attr name="android:layout_marginBottom"/>
+
+        
+
+
+        
+        <attr format="integer" name="layout_row"/>
+        
+        <attr format="integer" min="1" name="layout_rowSpan"/>
+        
+        <attr format="integer" name="layout_column"/>
+        
+        <attr format="integer" min="1" name="layout_columnSpan"/>
+        
+        <attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr>
+    </declare-styleable><dimen name="default_gap">16dip</dimen></file></source></dataSet><dataSet config="main$Generated" generated="true"><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\src\androidTest\res"/><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\build\generated\res\rs\androidTest\debug"/><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\build\generated\res\resValues\androidTest\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\src\androidTest\res"/><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\build\generated\res\rs\androidTest\debug"/><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\build\generated\res\resValues\androidTest\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\src\androidTestDebug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Devesh Hatkar\AndroidStudioProjects\CHARUSAT-AMS\app\src\androidTestDebug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GridLayout"><attr name="orientation">
+
+            
+            <enum name="horizontal" value="0"/>
+            
+            <enum name="vertical" value="1"/>
+        </attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode">
+
+            
+            <enum name="alignBounds" value="0"/>
+            
+            <enum name="alignMargins" value="1"/>
+        </attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable><declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr name="layout_gravity">
+
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr></declare-styleable></configuration></mergedItems></merger>

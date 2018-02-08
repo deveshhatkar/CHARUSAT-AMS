@@ -1,0 +1,110 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Devesh Hatkar\\.gradle\\caches\\transforms-1\\files-1.1\\gridlayout-v7-18.0.0.aar\\f8243bee5decf905729b1fa9a38e2866\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "188",
+                        "startColumns": "4",
+                        "startOffsets": "8767",
+                        "endColumns": "43",
+                        "endOffsets": "8806"
+                    },
+                    "to": {
+                        "startLines": "46",
+                        "startColumns": "4",
+                        "startOffsets": "2154",
+                        "endColumns": "43",
+                        "endOffsets": "2193"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4,5,7,6,8,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "59,110,164,287,216,358,438",
+                        "endColumns": "49,52,50,69,69,78,56",
+                        "endOffsets": "104,158,210,352,281,432,490"
+                    },
+                    "to": {
+                        "startLines": "47,48,49,50,51,52,53",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2198,2248,2301,2352,2422,2492,2571",
+                        "endColumns": "49,52,50,69,69,78,56",
+                        "endOffsets": "2243,2296,2347,2417,2487,2566,2623"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "54,61",
+                        "startColumns": "4,4",
+                        "startOffsets": "2628,2919",
+                        "endLines": "60,63",
+                        "endColumns": "12,12",
+                        "endOffsets": "2914,3074"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Devesh Hatkar\\AndroidStudioProjects\\CHARUSAT-AMS\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

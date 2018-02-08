@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity" >
+    
+    <Button 
+        android:id = "@+id/bsave"
+        android:layout_height = "wrap_content"
+        android:layout_width = "100dp"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentTop = "true"
+        android:onClick = "onSaveClicked"
+        android:text = "Save"/>
+
+    <ListView
+        android:id = "@+id/lstudent"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        android:layout_below = "@id/bsave"
+        android:layout_marginTop = "10dp" />
+
+</RelativeLayout>

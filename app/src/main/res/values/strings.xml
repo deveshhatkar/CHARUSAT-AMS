@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CHARUSAT-AMS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_attendance_details">Details</string>
+    <string name="title_activity_attendance">Take Attendance</string>
+    <string name="title_activity_attendance_generate_details">Details</string>
+    <string name="title_activity_report">Report</string>
+
+</resources>
